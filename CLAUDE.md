@@ -37,9 +37,22 @@
 - `section`은 "항목명 - 주제" 형식(예: "Retro Synth - 개요").
 - 자료는 Logic Pro 12.3 설명서 기준이다(12.4 설명서는 없다). LP-007만 10.6.2판 영어 페이지를 출처로 한다.
 
+## 임베딩 계약
+- 모델은 `onnx-community/embeddinggemma-300m-ONNX`, transformers.js로 `pipeline("feature-extraction", MODEL, { dtype: "q8" })`. 호출 옵션은 `{ pooling: "mean", normalize: true }`, 출력은 768차원.
+- 입력 형식
+  - 문서: `"title: " + section + " | text: " + text`
+  - 질문: `"task: search result | query: " + question`
+- `src/embedder.mjs` 한 곳에서만 정의한다. 파이프라인은 한 번만 만들어 재사용한다.
+  - export: `embedDocument(chunk)`, `embedQuery(question)`, `MODEL`, `DTYPE`, `DIM`
+- 벡터 저장소는 `data/vectors.json`, 형식은 `{ model, dtype, dim, createdAt, chunks: [{ id, text, url, section, vector }] }`.
+- 저장소의 `model`·`dtype`이 현재 embedder의 `MODEL`·`DTYPE`과 다르면 검색을 거부하고 "build-index를 다시 실행하라"고 안내한다.
+
+## 검색 계약
+- 벡터는 정규화되어 있으므로 코사인 유사도 = 내적. 점수 내림차순으로 top-k를 돌려주고, 기본 k는 3.
+- 약한 근거 기준 `WEAK_THRESHOLD = 0.55`는 `src/search.mjs`에서만 정의·export하고, 다른 파일은 import해서 쓴다.
+  - 1위 점수가 이보다 낮으면 "관련 자료가 약함"으로 표시한다. 결과는 버리지 않는다.
+- `src/search.mjs`는 다른 파일이 `search()`를 import해도 CLI가 실행되지 않게, 직접 실행됐을 때만 CLI를 돈다(`import.meta.url === pathToFileURL(process.argv[1]).href` 확인).
+
 ## 결정 필요
-- 임베딩 모델과 설정은?
-- 검색 개수(상위 몇 개)와 기준 점수는?
-- 벡터를 어디에 어떤 형식으로 저장할까?
 - LLM에게 줄 규칙(시스템 프롬프트)은? 답변 형식과 출처 표기 방식은?
 - 1단계와 2단계의 실행 방법(명령어, 입출력 형태)은?

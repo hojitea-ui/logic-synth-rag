@@ -32,8 +32,8 @@
   "hotPaths": [
     {
       "path": "CLAUDE.md",
-      "accessCount": 6,
-      "lastAccessed": 1791957624538,
+      "accessCount": 9,
+      "lastAccessed": 1791958265187,
       "type": "file"
     },
     {
@@ -49,10 +49,28 @@
       "type": "file"
     },
     {
+      "path": "src/search.mjs",
+      "accessCount": 2,
+      "lastAccessed": 1791958321325,
+      "type": "file"
+    },
+    {
       "path": "",
       "accessCount": 1,
       "lastAccessed": 1791956177297,
       "type": "directory"
+    },
+    {
+      "path": "src/embedder.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1791958007479,
+      "type": "file"
+    },
+    {
+      "path": "docs/step5-observations.md",
+      "accessCount": 1,
+      "lastAccessed": 1791958800147,
+      "type": "file"
     }
   ],
   "userDirectives": []

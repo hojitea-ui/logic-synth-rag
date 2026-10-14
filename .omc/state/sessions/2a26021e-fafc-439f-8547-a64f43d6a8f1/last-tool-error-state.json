@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"node -e \\\"import('./src/search.mjs').then(m=>console.log('import ok, CLI 미실행:', m.WEAK_THRESHOLD, typeof m.search))\\\"; node src\\\\search.mjs\",\"description\":\"Test main guard and usage messag...",
+  "error": "Exit code 1\nnode:url:1024\r\n  validateString(path, 'path');\r\n  ^\r\n\r\nTypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined\r\n    at pathToFileURL (node:url:1024:3)\r\n    at file:///C:/Users/alshf/aiffel-work/logic-synth-rag/src/search.mjs:92:25\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\r\n    at async node:internal/modules/esm/loader:643:26\r\n    at async importModuleDynamicallyWrapper (node:internal/vm/module:525:15) {\r\n  code: 'ERR_...",
+  "timestamp": "2026-10-14T06:11:57.367Z",
+  "retry_count": 1
+}
