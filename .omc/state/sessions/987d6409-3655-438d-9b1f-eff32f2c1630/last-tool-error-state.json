@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"$sp = \\\"C:\\\\Users\\\\alshf\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-alshf-aiffel-work-logic-synth-rag\\\\987d6409-3655-438d-9b1f-eff32f2c1630\\\\scratchpad\\\"\\n$r = Invoke-WebRequest -UseBasicPars...",
+  "error": "Exit code 1\n200\r\n2260802\r\nCannot index into a null array.\r\nAt line:5 char:54\r\n+ $r.Content -match '<title>(.*?)</title>' | Out-Null; $Matches[1]\r\n+                                                      ~~~~~~~~~~~\r\n    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException\r\n    + FullyQualifiedErrorId : NullArray",
+  "timestamp": "2026-10-14T05:44:52.964Z",
+  "retry_count": 1
+}

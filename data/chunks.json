@@ -1,0 +1,92 @@
+[
+  {
+    "id": "LP-001",
+    "text": "Retro Synth는 다양한 사운드를 만들 수 있는 유연한 16 보이스 신디사이저이며, Analog, Sync, Wavetable, FM의 네 가지 신디사이저 엔진을 제공한다. 각 엔진은 다른 종류의 신디사이저로는 만들기 어렵거나 불가능한 고유한 사운드를 낼 수 있다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgsi213c43b3/mac",
+    "section": "Retro Synth - 개요"
+  },
+  {
+    "id": "LP-002",
+    "text": "Retro Synth에서 새 사운드를 만들 때는 먼저 엔진을 고른다. 설명서 기준으로 Analog는 클래식 신디사이저 사운드(리드, 패드, 베이스), Sync는 어그레시브한 사운드(주로 리드, 베이스), Table(Wavetable)은 깨끗한 디지털 사운드(패드, 베이스)와 점진적으로 발전하는 이펙트 사운드, FM은 클래식 디지털 사운드(벨, 일렉트릭 피아노, 클라비넷, 날카로운 베이스)에 사용한다. 엔진을 바꾸면 사용 가능한 컨트롤이 바뀌며, 변화는 대부분 오실레이터 섹션에서 나타난다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgsi213c43b3/mac",
+    "section": "Retro Synth - 엔진 선택"
+  },
+  {
+    "id": "LP-003",
+    "text": "ES2는 FM 요소를 사용한 감산 합성과 웨이브테이블 합성을 결합한 신디사이저로, 설명서는 강력한 패드, 진화하는 텍스처, 풍부한 베이스, 금관악기 사운드를 만드는 데 적합하다고 소개한다. 오실레이터 세 개가 클래식 아날로그 파형(노이즈 포함)과 디지웨이브라 불리는 100개의 단일 사이클 파형을 제공하며, 오실레이터를 교차 모듈레이션하면 FM 스타일 사운드를 만들 수 있다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgsia12923e/mac",
+    "section": "ES2 - 합성 방식과 오실레이터"
+  },
+  {
+    "id": "LP-004",
+    "text": "ES2의 유연한 모듈레이션 라우터는 동시에 최대 10개(사용자 정의)의 모듈레이션 라우팅을 실행할 수 있다. 평면 패드는 2차원 그리드에서 두 파라미터를 함께 컨트롤하며, 이 평면 패드 자체는 루프가 가능한 멀티포인트 엔벨로프인 Vector Envelope로 컨트롤할 수 있어 복잡하게 진화하는 사운드를 쉽게 만들 수 있다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgsia12923e/mac",
+    "section": "ES2 - 모듈레이션"
+  },
+  {
+    "id": "LP-005",
+    "text": "Alchemy는 사용하기 쉬우면서도 강력한 샘플 조작 신디사이저로, 가산 합성, 스펙트럴 합성, 그래뉼러 합성 및 재합성, 샘플링, 가상 아날로그 엔진 기능을 갖추고 있다. 샘플을 가져와 분석한 뒤 하나 이상의 합성 방법으로 조작할 수 있으며, 실시간 퍼포먼스 컨트롤과 광범위한 프리셋 라이브러리를 제공한다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgsi2618652a/mac",
+    "section": "Alchemy - 합성 엔진"
+  },
+  {
+    "id": "LP-006",
+    "text": "Alchemy 사운드 하나는 최대 4개의 소스(A, B, C, D)를 포함할 수 있고 각 소스에는 3개의 독립 필터가 있다. 소스들이 합쳐진 소리는 병렬 또는 직렬로 실행할 수 있는 2개의 메인 필터를 거쳐 이펙트 단계로 넘어가며, 소스 사이에서 모핑과 크로스페이드도 가능하다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgsi2618652a/mac",
+    "section": "Alchemy - 소스와 신호 흐름"
+  },
+  {
+    "id": "LP-007",
+    "text": "Logic Pro 10.0 신기능 설명서에 따르면 빈티지 악기 플러그인 세 개(EVP88, EVB3, EVD6)가 새로 설계되면서 각각 Vintage Electric Piano, Vintage B3, Vintage Clav로 이름이 바뀌었다.",
+    "url": "https://support.apple.com/en-au/guide/logicpro/lgcpcdc45bd2/10.6.2/mac/10.15.7",
+    "section": "EVP88 - 이름 변경"
+  },
+  {
+    "id": "LP-008",
+    "text": "Vintage Electric Piano는 다양한 Rhodes 및 Wurlitzer 피아노와 Hohner Electra 피아노의 사운드를 시뮬레이션한다. 사운드 엔진은 구성요소 모델링 합성 기술을 사용해 88 건반 전 범위에서 부드러운 다이나믹스와 스케일링을 내며, 노트의 디케이 페이즈 동안 샘플 간 갑작스러운 변화나 샘플 루핑이 생기지 않는다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgsifc1ba323/mac",
+    "section": "EVP88(Vintage Electric Piano) - 시뮬레이션 대상과 사운드 엔진"
+  },
+  {
+    "id": "LP-009",
+    "text": "Drum Machine Designer는 그리드 한 페이지에 16개의 패드를 보여 주며, 각 패드에는 키트 피스 사운드가 할당된다. 메인 트랙이 받은 MIDI 노트는 각 패드에 정해 둔 입력 노트와 출력 노트에 따라 서브 트랙으로 나뉘어 전달된다. 예를 들어 입력 C1, 출력 G2로 설정된 패드는 C1을 G2로 바꿔 첫 번째 서브 트랙의 악기에 보낸다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgcpdcdd1d7a/mac",
+    "section": "Drum Machine Designer - 패드와 노트 분배"
+  },
+  {
+    "id": "LP-010",
+    "text": "Arpeggiator MIDI 플러그인은 들어오는 MIDI 노트를 바탕으로 아르페지오를 만든다. 아르페지오는 코드의 노트를 동시에 치지 않고 위, 아래, 무작위 등의 패턴으로 하나씩 차례로 재생하는 것이며, 플러그인은 여러 프리셋 패턴과 변주·인버전 기능을 제공한다. 창은 컨트롤 파라미터, Note Order 파라미터, 고급 파라미터(Pattern, Options, Keyboard, Controller)의 세 영역으로 나뉜다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgce2f607310/mac",
+    "section": "Arpeggiator - 개요"
+  },
+  {
+    "id": "LP-011",
+    "text": "소프트웨어 악기 트랙에서는 Smart Controls 메뉴 막대의 Arpeggiator 버튼을 클릭해 Arpeggiator MIDI 플러그인을 켤 수 있다. 켜면 채널 스트립에 Arpeggiator 플러그인이 추가되고 메뉴 막대에 팝업 메뉴가 나타나며, 이 메뉴에서 프리셋과 음 순서, 노트 범위, 옥타브 범위를 고를 수 있다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgcp93ac1284/mac",
+    "section": "Arpeggiator - Smart Controls에서 켜기"
+  },
+  {
+    "id": "LP-012",
+    "text": "Chorus 이펙트는 원본 신호를 지연시키고, 지연 시간을 LFO로 모듈레이션한 뒤 그 신호를 원래의 드라이 신호와 섞는다. 설명서는 이를 통해 여러 악기나 목소리가 함께 연주하는 듯한 효과를 내거나 신호에 풍부함을 더하고, 저음이나 지속되는 소리에 움직임을 줄 수 있다고 설명한다. 채널 스트립 오디오 이펙트 메뉴의 Modulation > Chorus에서 추가한다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgcef266d395/mac",
+    "section": "Chorus - 동작 원리"
+  },
+  {
+    "id": "LP-013",
+    "text": "Rotor Cabinet 이펙트는 Hammond 오르간의 회전하는 스피커 캐비닛(Leslie 이펙트)과 그 소리를 녹음하는 마이크를 에뮬레이션한다. Rotation 스위치로 로터 속도를 Slow, Brake, Fast 중에서 고르고, 캐비닛 Type 메뉴에서 Wood, Proline, Single 등의 모델을 고르며, Deflector 스위치로 혼 디플렉터를 단 상태와 뗀 상태를 에뮬레이션한다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgcef266d84d/mac",
+    "section": "Rotor Cabinet - 개요와 기본 파라미터"
+  },
+  {
+    "id": "LP-014",
+    "text": "Space Designer는 임펄스 응답 리버브 샘플로 오디오 신호를 중첩(컨볼루션)해 리버브를 만드는 컨볼루션 리버브 이펙트다. 임펄스 응답은 초기 신호 스파이크 이후 어떤 공간에서 일어나는 모든 반사를 녹음한 것이며, 내장된 임펄스 응답 합성 도구로 실제 공간을 표현하지 않는 고유한 이펙트도 만들 수 있다. 메뉴 경로는 Reverb > Space Designer이다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgce357aa791/mac",
+    "section": "Space Designer - 컨볼루션 리버브"
+  },
+  {
+    "id": "LP-015",
+    "text": "ChromaVerb는 14개의 개별 공간 유형 알고리즘을 갖춘 리버브로, 흡수 특성이 선택한 공간 유형과 Reverb 파라미터 설정에 따라 달라진다. 인터페이스는 Attack, Size, Density, Distance, Decay 같은 일반 파라미터를 보여 주는 Main 보기와 Width, Quality, Modulation 같은 고급 파라미터를 다루는 Details 보기로 나뉜다. 메뉴 경로는 Reverb > ChromaVerb이다.",
+    "url": "https://support.apple.com/ko-kr/guide/logicpro/lgcp18cc0940/mac",
+    "section": "ChromaVerb - 공간 유형과 보기"
+  }
+]
